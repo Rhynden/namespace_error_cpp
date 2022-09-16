@@ -129,6 +129,54 @@ NamespaceError/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/build
 .PHONY : NamespaceError/fast
 
+src/easylogging/easylogging++.o: src/easylogging/easylogging++.cc.o
+.PHONY : src/easylogging/easylogging++.o
+
+# target to build an object file
+src/easylogging/easylogging++.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o
+.PHONY : src/easylogging/easylogging++.cc.o
+
+src/easylogging/easylogging++.i: src/easylogging/easylogging++.cc.i
+.PHONY : src/easylogging/easylogging++.i
+
+# target to preprocess a source file
+src/easylogging/easylogging++.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.i
+.PHONY : src/easylogging/easylogging++.cc.i
+
+src/easylogging/easylogging++.s: src/easylogging/easylogging++.cc.s
+.PHONY : src/easylogging/easylogging++.s
+
+# target to generate assembly for a file
+src/easylogging/easylogging++.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.s
+.PHONY : src/easylogging/easylogging++.cc.s
+
+src/kernels/kernels.o: src/kernels/kernels.cpp.o
+.PHONY : src/kernels/kernels.o
+
+# target to build an object file
+src/kernels/kernels.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o
+.PHONY : src/kernels/kernels.cpp.o
+
+src/kernels/kernels.i: src/kernels/kernels.cpp.i
+.PHONY : src/kernels/kernels.i
+
+# target to preprocess a source file
+src/kernels/kernels.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.i
+.PHONY : src/kernels/kernels.cpp.i
+
+src/kernels/kernels.s: src/kernels/kernels.cpp.s
+.PHONY : src/kernels/kernels.s
+
+# target to generate assembly for a file
+src/kernels/kernels.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NamespaceError.dir/build.make CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.s
+.PHONY : src/kernels/kernels.cpp.s
+
 src/namespaceerror.o: src/namespaceerror.cpp.o
 .PHONY : src/namespaceerror.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NamespaceError"
+	@echo "... src/easylogging/easylogging++.o"
+	@echo "... src/easylogging/easylogging++.i"
+	@echo "... src/easylogging/easylogging++.s"
+	@echo "... src/kernels/kernels.o"
+	@echo "... src/kernels/kernels.i"
+	@echo "... src/kernels/kernels.s"
 	@echo "... src/namespaceerror.o"
 	@echo "... src/namespaceerror.i"
 	@echo "... src/namespaceerror.s"

@@ -69,10 +69,38 @@ include CMakeFiles/NamespaceError.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NamespaceError.dir/flags.make
 
+CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o: CMakeFiles/NamespaceError.dir/flags.make
+CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o: ../src/easylogging/easylogging++.cc
+CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o: CMakeFiles/NamespaceError.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boeck/namespace_error_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o -MF CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o.d -o CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o -c /home/boeck/namespace_error_cpp/src/easylogging/easylogging++.cc
+
+CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boeck/namespace_error_cpp/src/easylogging/easylogging++.cc > CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.i
+
+CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boeck/namespace_error_cpp/src/easylogging/easylogging++.cc -o CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.s
+
+CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o: CMakeFiles/NamespaceError.dir/flags.make
+CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o: ../src/kernels/kernels.cpp
+CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o: CMakeFiles/NamespaceError.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boeck/namespace_error_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o -MF CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o.d -o CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o -c /home/boeck/namespace_error_cpp/src/kernels/kernels.cpp
+
+CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/boeck/namespace_error_cpp/src/kernels/kernels.cpp > CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.i
+
+CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/boeck/namespace_error_cpp/src/kernels/kernels.cpp -o CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.s
+
 CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o: CMakeFiles/NamespaceError.dir/flags.make
 CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o: ../src/namespaceerror.cpp
 CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o: CMakeFiles/NamespaceError.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boeck/namespace_error_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/boeck/namespace_error_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o -MF CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o.d -o CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o -c /home/boeck/namespace_error_cpp/src/namespaceerror.cpp
 
 CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.i: cmake_force
@@ -85,15 +113,19 @@ CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.s: cmake_force
 
 # Object files for target NamespaceError
 NamespaceError_OBJECTS = \
+"CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o" \
+"CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o" \
 "CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o"
 
 # External object files for target NamespaceError
 NamespaceError_EXTERNAL_OBJECTS =
 
+NamespaceError: CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o
+NamespaceError: CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o
 NamespaceError: CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o
 NamespaceError: CMakeFiles/NamespaceError.dir/build.make
 NamespaceError: CMakeFiles/NamespaceError.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boeck/namespace_error_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable NamespaceError"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/boeck/namespace_error_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable NamespaceError"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NamespaceError.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

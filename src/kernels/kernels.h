@@ -1,0 +1,4 @@
+namespace kernels
+{
+    void customPrint();
+}

@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o -o NamespaceError 
+/usr/bin/c++ CMakeFiles/NamespaceError.dir/src/easylogging/easylogging++.cc.o CMakeFiles/NamespaceError.dir/src/kernels/kernels.cpp.o CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o -o NamespaceError 

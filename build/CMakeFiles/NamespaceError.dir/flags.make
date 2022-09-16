@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/boeck/namespace_error_cpp/src/easylogging
+CXX_INCLUDES = 
 
 CXX_FLAGS = 
 
