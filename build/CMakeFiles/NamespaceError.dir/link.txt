@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/NamespaceError.dir/src/namespaceerror.cpp.o -o NamespaceError 

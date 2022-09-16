@@ -1,0 +1,3 @@
+/home/boeck/namespace_error_cpp/build/CMakeFiles/NamespaceError.dir
+/home/boeck/namespace_error_cpp/build/CMakeFiles/edit_cache.dir
+/home/boeck/namespace_error_cpp/build/CMakeFiles/rebuild_cache.dir
